@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1117;
+  color: #f5f5f5;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 1px solid #22252e;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+header p {
+  margin-top: 12px;
+  color: #9aa4b2;
+  font-size: 1.05rem;
+}
+
+/* Main Layout */
+
+main {
+  width: 90%;
+  max-width: 850px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Box Sections */
+
+section {
+  background-color: #161b22;
+  border: 1px solid #2d333b;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Labels */
+
+label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* File Input */
+
+input[type="file"] {
+  width: 100%;
+  padding: 14px;
+  background-color: #0f1117;
+  color: #dcdcdc;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+}
+
+/* Textarea */
+
+textarea {
+  width: 100%;
+  padding: 16px;
+  background-color: #0f1117;
+  color: #f5f5f5;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  resize: vertical;
+  font-size: 1rem;
+  outline: none;
+}
+
+textarea:focus {
+  border-color: #4f8cff;
+}
+
+/* Button */
+
+button {
+  margin-top: 18px;
+  padding: 14px 24px;
+  background-color: #4f8cff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+button:hover {
+  background-color: #3c78e8;
+  transform: translateY(-2px);
+}
+
+/* Answer Box */
+
+#answer {
+  background-color: #0f1117;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+/* Headings */
+
+h2 {
+  margin-top: 0;
+}
+
+/* Paragraphs */
+
+p {
+  line-height: 1.6;
+}
+
+/* Sources Dropdown */
+
+details {
+  margin-top: 18px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #8b949e;
+  border-top: 1px solid #22252e;
+  margin-top: 50px;
+}
