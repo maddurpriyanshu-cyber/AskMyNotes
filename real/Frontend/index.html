@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AskMyNotes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AskMyNotes</h1>
+            <p>Chat with your PDF notes using AI-powered retrieval.</p>
+        </div>
+
+        <div class="section upload-section">
+            <label class="section-label">Upload your notes (PDF)</label>
+            <div class="file-input-wrapper">
+                <input type="file" id="pdfFile" accept="application/pdf">
+                <span id="uploadStatus">No file uploaded yet.</span>
+            </div>
+        </div>
+
+        <div class="section question-section">
+            <label class="section-label">Your question</label>
+            <textarea id="questionInput" placeholder="What do my notes say about..."></textarea>
+            <div class="button-wrapper">
+                <button id="submitBtn">Submit</button>
+            </div>
+        </div>
+
+        <div class="section answer-section">
+            <label class="section-label">Answer</label>
+            <div class="answer-box">
+                <p id="answerText" class="placeholder-text">Your answer will appear here...</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
